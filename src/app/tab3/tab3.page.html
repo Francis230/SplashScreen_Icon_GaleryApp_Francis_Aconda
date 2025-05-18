@@ -1,0 +1,56 @@
+<ion-content class="ion-padding">
+
+  <!-- Galería visible solo si showPhotos es true -->
+  <ion-grid *ngIf="showPhotos">
+    <ion-row>
+      <ion-col size="6" *ngFor="let photo of photoService.photos">
+        <ion-card>
+          <img [src]="photo.webviewPath" />
+          <ion-card-content>
+            <p>{{ photo.filepath }}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Botones centrados -->
+  <div class="button-container">
+    <ion-button expand="block" (click)="loadPhotos()">
+      {{ showPhotos ? 'Ocultar Fotos' : 'Cargar Fotos' }}
+    </ion-button>
+
+    <ion-button expand="block" color="secondary" (click)="takePhoto(50)">
+      Tomar Foto (50% calidad)
+    </ion-button>
+  </div>
+
+</ion-content>
+
+
+
+
+
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Photo Gallery
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let photo of photoService.photos">
+        <ion-card>
+          <img [src]="photo.webviewPath" />
+          <ion-card-content>
+            <p>{{ photo.filepath }}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>  
+
+</ion-content> -->

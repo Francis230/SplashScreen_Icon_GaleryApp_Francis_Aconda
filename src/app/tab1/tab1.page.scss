@@ -1,0 +1,40 @@
+.intro {
+  text-align: center;
+  padding: 1.5rem;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.intro h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.camera-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.camera-image {
+  width: 350px;
+  height: auto;
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.instruction-text {
+  font-size: 1.1rem;
+  color: #444;
+}
