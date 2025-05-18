@@ -41,6 +41,8 @@ Permite cargar las fotos guardadas, verlas con su nombre y tomar una nueva a 50%
    ionic serve
 5. Corre en Android
    npx cap open android
+   
+--- 
 
 📲 Funcionalidades Incluidas
 📷 Captura de imágenes con la cámara
@@ -52,6 +54,8 @@ Permite cargar las fotos guardadas, verlas con su nombre y tomar una nueva a 50%
 🔧 Ícono de la aplicación personalizado
 
 ✅ Compatible con Android
+
+--- 
 
 🚀 Configuración del Splash Screen
 1. Instalar plugin
@@ -90,6 +94,8 @@ export class AppComponent {
   }
 }
 
+--- 
+
 🖼️ Personalización del Ícono y Splash
 
 1. Instalar herramienta
@@ -111,15 +117,18 @@ Esto generará automáticamente los íconos y splash adaptados para cada disposi
    npx cap sync android
    npx cap open android
 
+---
 
 📷 Imágenes Utilizadas
 Ícono personalizado:
 
 ![icon](https://github.com/user-attachments/assets/8f7aef32-5468-4fa6-bd58-136ebcc8745c)
-
+--- 
 Splash Screen personalizado:
 
 ![splash](https://github.com/user-attachments/assets/5da838bf-6614-4f7a-ae24-052c82874c9c)
+
+--- 
 
 📁 Carpetas Generadas
 Una vez generado el splash e íconos, se crean archivos dentro de android/app/src/main/res con los distintos tamaños:
@@ -127,7 +136,7 @@ Una vez generado el splash e íconos, se crean archivos dentro de android/app/sr
 
 ![image](https://github.com/user-attachments/assets/152e00e4-389f-4599-a549-ff5a90ba911e)
 
-
+---
 
 💡 Tecnologías Utilizadas
 Ionic Framework (Angular)
@@ -140,6 +149,11 @@ CapacitorJS
 
 @capacitor/assets
 
+--- 
+
+💡 Links de la documentación:
+- https://capacitorjs.com/docs/apis/splash-screen
+- https://capacitorjs.com/docs/guides/splash-screens-and-icons
 
 
 
